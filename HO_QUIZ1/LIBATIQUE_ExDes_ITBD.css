@@ -1,0 +1,23 @@
+p {
+    text-align: center;
+    font-family: Tahoma;
+    color: navy;
+    word-spacing: 10px;
+    font-size: 1.125em;
+}
+
+strong {
+    text-transform: uppercase;
+    color: blue;
+    font-family: Tahoma;
+    font-size: 1.125em;
+    text-shadow: 5px 5px 8px;
+}
+
+i {
+    text-transform: uppercase;
+    color: green;
+    font-family: Arial;
+    font-size: 1.125em;
+    text-shadow: 5px 5px 8px;
+}
