@@ -1,0 +1,86 @@
+header{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+body{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+table.header{
+    color: red;
+
+}
+
+
+table.body{
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+
+th.footer{
+    color: red;
+    font-size: 26px;
+    padding-left: 0px;
+    padding-top: 20px;
+
+}
+
+th.red{
+    color: red;
+    padding-left: 20px;
+    padding-bottom: 2px;
+}
+
+td, th, tr{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    text-align: left;
+
+}
+
+th.bg, tr.bg{
+    color: white;
+    background-color: red;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+th.fees{
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+}
+
+img.logo{
+    padding-left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+th.UE{
+    color: red;
+    font-size: 26px;
+}
+
+th.MNL{
+    font-size: 20px;
+}
+
+td.top{
+    color: black;
+}
+
+tr.footer{
+    color: black;
+    font-size: 16px;
+
+}
+
+th.footer{
+    padding-bottom: 20px;
+}
