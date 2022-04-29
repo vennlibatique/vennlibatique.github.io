@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <title>APPLICATION OF FORMS</title>
+  <link rel="icon" href="shopaholic.png">
+  <link rel="stylesheet" href="formDesign.css">
+  <!--LIBATIQUE, VENN LAURENCE R-->
+  <!--APRIL 29, 2022-->
+
+    <body>
+        <form action="#" method="post">
+            <br><br>
+            <fieldset>
+                <label for="head" class="head">Customer Information</label>
+                <hr width="50%" size=".5" color="grey" NOSHADE>
+                <br>
+                <label for="given">Given Name: </label>
+                    <input type="text" name="given" id="given" placeholder="Enter Given Name" autofocus required>
+              
+                <label for="lasttname">Last Name: </label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
+
+                <label for="phone">Contact Number: </label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter Contact Number" required>
+
+                <label for="email">Email Address: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
+
+                <label for="address">Complete Address: </label>
+                    <input type="text" name="address" id="address" placeholder="Enter Delivery Address" required>
+
+                <label for="message">Description: </label>
+                    <textarea name="message" id="message" placeholder="Provide any delivery instructons..."></textarea>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <label for="head" class="head">Order Form</label>
+                <hr width="50%" size=".5" color="grey" NOSHADE>
+                <br>
+                <div class="patty">
+                    
+                    <p>Choose your Burger: </p>
+                    <input type="radio" name="burger" id="patty" value="burger">
+                    <label for="patty">Single Patty</label>
+       
+                    <input type="radio" name="burger" id="patty2" value="burger">
+                    <label for="patty2">Double Patty</label>      
+                    <br><br>
+
+                    <label for="cheese">Cheese: </label>
+                    <input type="number" name="cheese" id="cheese" min="1" max="3" step="1">
+                    <br><br>
+                    
+                    <input type="checkbox" name="vanilla" id="vanilla" value="Vanilla">
+                    <label for="vanilla">Coleslaw</label>
+                    <br>
+
+                    <input type="checkbox" name="2vanilla" id="2vanilla" value="2Vanilla">
+                    <label for="2vanilla">Tomato</label>
+                    <br>
+
+                    <input type="checkbox" name="3vanilla" id="3vanilla" value="3Vanilla">
+                    <label for="3vanilla">Onion</label>
+                    <br>
+
+                    <input type="checkbox" name="strawberry" id="strawberry" value="Vtrawberry">
+                    <label for="strawberry">Cucumber</label>
+                    <br>
+
+                    <input type="checkbox" name="4vanilla" id="4vanilla" value="4Vanilla">
+                    <label for="4vanilla">Bacon</label>
+                    <br>
+
+                    <p>Choice of Bun: </p>
+                    <input type="radio" name="bun" id="toBun1" value="Email">
+                    <label for="toBun1">White Bun</label>
+                    <br>      
+                    <input type="radio" name="bun" id="toBun2" value="phone">
+                    <label for="toBun2">Wheat Bun</label>      
+                    <br>
+                    <input type="radio" name="bun" id="toBun3" value="text">
+                    <label for="toBun3">Honey Oat</label>
+                    <br>
+                    <input type="radio" name="bun" id="toBun4" value="text">
+                    <label for="toBun4">Sugar Free</label>
+                    <br>
+                    <br>
+                    <label for="burger">Quantity of Burger: </label>
+                    <input type="number" name="burger" id="cheese" min="1" max="99" step="1">
+
+                    <br><br><br>
+                    <hr width="50%" size=".5" color="grey" NOSHADE>
+                    <br><br>
+                    
+                    <p>Choose your Pasta: </p>
+                    <input type="checkbox" name="pasta" id="extra1" value="Pasta">
+                    <label for="extra1">Carbonara</label>
+                    <br>
+                    <label for="burger">Quantity: </label>
+                    <input type="number" name="carb" id="carb" min="1" max="10" step="1">
+                    <br><br>
+                    <input type="checkbox" name="pasta" id="extra11" value="Pasta">
+                    <label for="extra11">Pesto</label>
+                    <br>
+                    <label for="burger">Quantity: </label>
+                    <input type="number" name="pesto" id="pesto" min="1" max="10" step="1">
+                    <br><br>
+                    <input type="checkbox" name="pasta" id="extra12" value="Pasta">
+                    <label for="extra12">Spaghetti</label>
+                    <br>
+                    <label for="burger">Quantity: </label>
+                    <input type="number" name="spag" id="spag" min="1" max="10" step="1">
+                    <br><br>
+                    <input type="checkbox" name="pasta" id="extra13" value="Pasta">
+                    <label for="extra13">Alfredo</label>
+                    <br>
+                    <label for="burger">Quantity: </label>
+                    <input type="number" name="alf" id="alf" min="1" max="10" step="1">
+                    <br><br>
+
+                    <p>Additional: </p>
+                    <input type="checkbox" name="extra" id="extra0" value="additional">
+                    <label for="extra0">Extra Cheese</label>
+                    <br>
+                    <input type="checkbox" name="extra" id="extra2" value="additional">
+                    <label for="extra2">Extra Sauce</label>
+                    <br>
+                    <input type="checkbox" name="extra" id="extra3" value="additional">
+                    <label for="extra3">Extra Toppings</label>
+
+                    <br><br><br>
+                    <hr width="50%" size=".5" color="grey" NOSHADE>
+                    <br><br>
+
+                    <p>Choose your Fries: </p>
+                    <input type="checkbox" name="fries" id="S" value="Fries">
+                    <label for="S">BBQ</label>
+                    <br>
+                    <input type="radio" name="fries" id="sm" value="Fries">
+                    <label for="sm">Small</label>
+                    <input type="radio" name="fries" id="mid" value="Fries">
+                    <label for="mid">Medium</label>
+                    <input type="radio" name="fries" id="lg" value="Fries">
+                    <label for="lg">Large</label>
+                    <br>
+                    <label for="Fries">Quantity: </label>
+                    <input type="number" name="small" id="size1" min="1" max="10" step="1">
+                    <br><br>
+
+                    <input type="checkbox" name="fries2" id="M" value="Fries">
+                    <label for="M">Cheese</label>
+                    <br>
+                    <input type="radio" name="fries2" id="sm2" value="Fries">
+                    <label for="sm2">Small</label>
+                    <input type="radio" name="fries2" id="mid2" value="Fries">
+                    <label for="mid2">Medium</label>
+                    <input type="radio" name="fries2" id="lg2" value="Fries">
+                    <label for="lg2">Large</label>
+                    <br>
+                    <label for="Fries">Quantity: </label>
+                    <input type="number" name="medium" id="size2" min="1" max="10" step="1">
+                    <br><br>
+
+                    <input type="checkbox" name="fries3" id="L" value="Fries">
+                    <label for="L">Sour Cream</label>
+                    <br>
+                    <input type="radio" name="fries3" id="sm3" value="Fries">
+                    <label for="sm3">Small</label>
+                    <input type="radio" name="fries3" id="mid3" value="Fries">
+                    <label for="mid3">Medium</label>
+                    <input type="radio" name="fries3" id="lg3" value="Fries">
+                    <label for="lg3">Large</label>
+                    <br>
+                    <label for="Fries">Quantity: </label>
+                    <input type="number" name="large" id="size3" min="1" max="10" step="1">
+                    <br><br>
+
+                    <p>Choose your Drinks: </p>
+                    <input type="checkbox" name="drinks1" id="Sdr" value="Drinks">
+                    <label for="Sdr">Coke</label>
+                    <br>
+                    <input type="radio" name="drinks1" id="smdr" value="Drinks">
+                    <label for="smdr">Small</label>
+                    <input type="radio" name="drinks1" id="middr" value="Drinks">
+                    <label for="middr">Medium</label>
+                    <input type="radio" name="drinks1" id="lgdr" value="Drinks">
+                    <label for="lgdr">Large</label>
+                    <br>
+                    <label for="Fries">Quantity: </label>
+                    <input type="number" name="small" id="size1dr" min="1" max="10" step="1">
+                    <br><br>
+
+                    <input type="checkbox" name="drinks2" id="Mdr" value="Drinks">
+                    <label for="Mdr">Royal</label>
+                    <br>
+                    <input type="radio" name="drinks2" id="sm2dr" value="Drinks">
+                    <label for="sm2dr">Small</label>
+                    <input type="radio" name="drinks2" id="mid2dr" value="Drinks">
+                    <label for="mid2dr">Medium</label>
+                    <input type="radio" name="drinks2" id="lg2dr" value="Drinks">
+                    <label for="lg2dr">Large</label>
+                    <br>
+                    <label for="Fries">Quantity: </label>
+                    <input type="number" name="medium" id="size2dr" min="1" max="10" step="1">
+                    <br><br>
+
+                    <input type="checkbox" name="drinks3" id="Ldr" value="Fries">
+                    <label for="Ldr">Sprite</label>
+                    <br>
+                    <input type="radio" name="drinks3" id="sm3dr" value="Fries">
+                    <label for="sm3dr">Small</label>
+                    <input type="radio" name="drinks3" id="mid3dr" value="Fries">
+                    <label for="mid3dr">Medium</label>
+                    <input type="radio" name="drinks3" id="lg3dr" value="Fries">
+                    <label for="lg3dr">Large</label>
+                    <br>
+                    <label for="Fries">Quantity: </label>
+                    <input type="number" name="large" id="size3dr" min="1" max="10" step="1">
+
+                    <br><br><br>
+                    <hr width="50%" size=".5" color="grey" NOSHADE>
+                    <br><br>
+
+                    <label for="message">Help us to improve our service: </label>
+                    <textarea name="message" id="message" placeholder="Give us a feedback..."></textarea>
+                    
+                    <br><br><br>
+                    <hr width="50%" size=".5" color="grey" NOSHADE>
+                    <br><br>
+
+                    <p>Delivery Option: </p>
+                    <input type="radio" name="delivery" id="opt1" value="Delivery">
+                    <label for="opt1">Delivery</label>
+                    <input type="radio" name="delivery" id="opt2" value="Delivery">
+                    <label for="opt2">Pick-up</label>
+
+                    <br><br><br>
+                    <hr width="50%" size=".5" color="grey" NOSHADE>
+                    <br><br>
+
+                    <button type="reset">Reset</button>
+                    <br>
+                    <button type="submit">Submit</button>
+                   </div>
+
+            </fieldset>
+
+            </form>
+    </body>
+
+</html>
