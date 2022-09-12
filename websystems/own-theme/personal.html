@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-personal.css">
+    <title>Personal | Prelim Quiz 1</title>
+</head>
+
+<header>
+    <h1>Personal Theme</h1>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="../galaxy/index.html">Galaxy</a></li>
+            <li><a href="../nature/codes/Design2.html">Nature</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><button id="about" type="menu">About Us</button></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <img src="photos/logo.png" alt="Keep it Simple - Logo" id="logo">
+    <h1 id="discover">DISCOVER OUR OWN <br> THEME DESIGN</h1>
+    <div class="slider"></div>
+    <h3 id="aristotle">“Excellence is never an accident. It is always the result of high intention, <br> sincere effort, and intelligent execution; <br> it represents the wise choice of many alternatives - choice, not chance, determines your destiny.”
+        <br> ― Aristotle</h3>
+    
+        
+    <button id="explore" type="submit">Explore</button>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to the top</button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        
+
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+<footer>
+    <h6 class="footer">© 2022-2023 CIT_4304 PRELIM, Group 10 - Libatique, Venn Laurence</h6>
+</footer>
+
+</html>
