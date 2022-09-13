@@ -1,0 +1,313 @@
+body{
+		margin:0;
+		padding:0;
+}
+.img-area{
+	padding-top: 50%;
+	width:100%;
+	height:max-content;
+	display: block;
+	background: url(https://previews.123rf.com/images/angelp/angelp1103/angelp110300005/8978371-abstract-technology-background-for-use-in-web-design-.jpg);
+	animation:animate 15s infinite ease-in-out;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:center center; 
+}
+@keyframes animate{
+		25%{
+		background:url(https://previews.123rf.com/images/angelp/angelp1103/angelp110300005/8978371-abstract-technology-background-for-use-in-web-design-.jpg);
+		-webkit-background-size:cover;
+		background-size:cover;
+		background-position:center center;
+	}
+		50%{
+		background:url(https://blog.vantagecircle.com/content/images/2020/08/technology-in-the-workplace.png);
+		-webkit-background-size:cover;
+		background-size:cover;
+		background-position:center center;
+	}
+		75%{
+		background:url(https://content.thriveglobal.com/wp-content/uploads/2018/01/techandsuccess.jpg);
+		-webkit-background-size:cover;
+		background-size:cover;
+		background-position:center center;
+	}
+		100%{
+		background:url(https://s3.thingpic.com/images/UJ/4T9xjHFVt4XWhwc1X8rj8iQt.png);
+		-webkit-background-size:cover;
+		background-size:cover;
+		background-position:center center;
+	}
+
+
+}
+
+/*header*/
+.menu{
+		background-color:#4682B4 ;
+		text-align:center;
+		text-decoration: none;
+		height:90px;
+		width:100%;
+		position:fixed;
+		display:flex;
+		top:0%;
+		
+	}
+.logo{
+		float:left;
+		margin-left:80px;
+		background-color:white;
+}
+.button {
+	text-align:center;
+	background-color:white;
+	text-decoration: none;
+	float:right;
+	border:2px navy solid;
+	border-radius:20px;
+	height:50px;
+	width:120px;
+	margin-top:20px;
+	margin-right:200px;
+	padding:5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+.button a{
+	text-align: center;
+	text-decoration: none;
+}
+.menuItems {
+	width:500px;
+	height:60px;
+	text-align:center;
+	margin:auto;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-top:30px;
+	font-size: 17px;
+	font-family:Bahnschrift SemiBold;
+	background-color:rgb(50, 178, 190);
+		
+}
+.menuItems a {
+	text-decoration: none;
+
+		
+}
+/*back button*/
+
+.menuItemsBack {
+	text-align: center;
+	width:60px;
+	height:60px;
+	padding-top:30px;
+	font-size: 17px;
+	font-family:Bahnschrift SemiBold;
+	background-color:rgb(173,216,230);
+	margin-left:10px;
+	border-radius: 10px;
+		
+	
+	
+}
+.menuItemsBack a {
+	text-decoration: none;
+
+		
+	
+	
+}
+/*sample*/
+body{
+	background-image:url();
+	background-color: azure;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:center center;
+
+}
+div.sample{
+	text-align: center;
+	margin: auto;
+	background-color:#7fffd4;
+	width:300px;
+
+
+}
+h2{
+	text-align: center;
+	margin: auto;
+	background-color: rgb(189, 183, 107,.8);
+	width:300px;
+}
+div.content{
+	text-align: center;
+	background-color:rgb(237, 243, 221,.8);
+	margin:auto;
+	padding:30px;
+
+}
+div.devices{
+	text-align: center;
+	margin:auto;
+	width:70%;
+	height:50%;
+
+
+
+}
+
+img.pic{
+	border: 2px black solid;
+	text-align: center;
+	width:40%;
+	height:20%;
+	margin:auto;
+}
+
+/*title*/
+.title{
+		text-align:center;
+		margin:auto;
+		background-color:rgb(153,50,204,.8);
+		margin-top:-35%;
+		height:50%;
+		width:55%;
+		border-radius:20px;
+	
+}	
+.a{
+	text-align:center;
+	color:white;
+	font-size:1em;
+	font-family:Comic Sans MS;
+	padding:20px;
+
+}
+.register{
+	text-align:center;
+	margin:auto;
+	border-radius:30px;
+	border:2px solid navy;
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+	font-family:Arial Black;
+	padding:20px;
+	width:170px;
+	background-color:rgb(102,205,170);
+
+}
+.register a{
+	text-decoration: none;
+}
+h3{
+		font-size:5em;
+		color:white;
+		font-family:Rockwell;
+	
+}
+.menuItems a:hover {
+		
+		height:500px;
+		font-size: 25px;
+		cursor: pointer;
+		text-shadow: #2c455e;
+		
+		
+
+		}
+.menuItems a.active {
+		background-color: #FF0000 ;
+		color:	rgb(255,250,205);
+		font-weight:bold;
+
+	}
+.register a:hover{
+	color:	rgb(255,250,205);
+}
+.register:hover{
+	background-color: rgb(131, 176, 72);
+	cursor: pointer;
+}
+.button:hover{
+	background-color:rgb(176,224,230);
+	color:rgb(255,255,224);
+	cursor: pointer;
+
+}
+
+.menuItemsBack a:hover{
+	color:#FF0000;
+	cursor: pointer;
+	font-weight: bolder;
+	
+}
+.menuItemsBack a:active{
+	color:#a2dc45;
+}
+
+footer{
+    font-family: myFont;
+    color: #2c455e;
+    display: flex;
+    background:#cbede8;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    bottom: 0;
+}
+h4.footer{
+	margin:auto;
+
+}
+/*sample top*/
+div.top{
+	text-align: center;
+	margin:auto;
+	height:40px;
+	width:80px;
+	background-color: aqua;
+	float:right;
+	margin-bottom:10px;
+	margin-right:20px;
+	border: 2px navy solid;
+	border-radius: 20px;
+	padding:10px;
+
+}
+.top a{
+	text-decoration:none;
+	margin:auto;
+}
+.top:hover{
+	background-color: azure;
+	height:40px;
+	width:90px;
+
+}
+.top a:hover{
+	font-size:20px;
+	color:darkblue;
+	font-weight: bold;
+}
+.top:active{
+	background-color: #a2dc45;
+}
+.top a:active{
+	color:#FF0000;
+}
+/*video*/
+div.video{
+	text-align: center;
+	background-color:rgb(237, 243, 221,.8);
+	margin:auto;
+	padding:30px;
+	border: 2px navy solid;
+	height:500px;
+	width:600px
+
+}
